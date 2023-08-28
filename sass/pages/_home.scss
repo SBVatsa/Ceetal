@@ -266,6 +266,23 @@
 }
 
 
+.service-title-bg {
+  background: linear-gradient(
+                  rgba(0, 0, 0, 0.75),
+                  rgba(0, 0, 0, 0.75)
+  ),
+  url('../assets/images/service-bg.jpg');
+  background-size: cover;
+  height: 60%;
+  width: 100%;
+  z-index: 1000;
+  background-position: left;
+  @media (max-width: 767px) {
+    height: 40%;
+  }
+}
+
+
 .esd-fullcycle-section {
   margin-top: 0;
   text-align: left;

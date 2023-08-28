@@ -1,3 +1,4 @@
+@import "mixin";
 .navigation {
   float: right;
   margin-top: 30px;
@@ -126,7 +127,7 @@
 .header-small {
   .navigation {
     float: right;
-    margin-top: 20px;
+    margin-top: 32px;
     .navigationList-link {
       text-decoration: none;
       &:after {
