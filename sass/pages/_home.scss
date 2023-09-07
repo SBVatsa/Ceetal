@@ -458,3 +458,33 @@
     }
   }
 }
+
+.service-pdf-section{
+  display: flex;
+  background: #F5F5F5;
+  justify-content: center;
+  align-items: center;
+  .pdf-button{
+    background: -webkit-linear-gradient(#0071bc, #026ba8);
+    border: none;
+    margin: 0 20px;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover{
+      filter: blur(0.4px);
+    }
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+    a{
+      color: #ffffff;
+    }
+  }
+}
+

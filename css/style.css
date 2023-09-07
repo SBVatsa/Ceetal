@@ -1,12 +1,12 @@
 .top-header-wrapper {
   background: #F5F5F5;
-  padding: 10px;
-  /*@media (max-width: 767px) {
-display: none;
-}
-@media(max-width: 1024px) {
-display: none;
-}*/ }
+  padding: 10px; }
+  @media (max-width: 767px) {
+    .top-header-wrapper {
+      display: none; } }
+  @media (max-width: 1024px) {
+    .top-header-wrapper {
+      display: none; } }
   .top-header-wrapper .container {
     display: flex; }
   .top-header-wrapper .top-header-content-container {
@@ -89,7 +89,7 @@ display: none;
           .header .logo .logo-link img {
             width: 90px; } }
   .header.header-small {
-    height: 85px;
+    height: 98px;
     padding-top: 5px;
     padding-bottom: 15px;
     -webkit-box-shadow: 0 0 1px rgba(0, 0, 0, 0.4);
@@ -816,6 +816,31 @@ display: none;
         top: -10px;
         left: -10px; } }
 
+.service-pdf-section {
+  display: flex;
+  background: #F5F5F5;
+  justify-content: center;
+  align-items: center; }
+  .service-pdf-section .pdf-button {
+    background: -webkit-linear-gradient(#0071bc, #026ba8);
+    border: none;
+    margin: 0 20px;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .service-pdf-section .pdf-button:hover {
+      filter: blur(0.4px); }
+    @media (max-width: 767px) {
+      .service-pdf-section .pdf-button {
+        width: 100%; } }
+    .service-pdf-section .pdf-button a {
+      color: #ffffff; }
+
 .contact-us-section {
   background-image: url("../assets/images/bg-contact.png");
   background-color: #0071BC;
@@ -981,7 +1006,13 @@ a:link {
 
 .flex-v-align {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  justify-content: center; }
+  .flex-v-align a {
+    color: #fff;
+    padding: 0;
+    -webkit-align-content: center;
+    text-align: center; }
 
 .flex-h-align {
   display: flex;

@@ -81,6 +81,13 @@ a:link {
 .flex-v-align  {
   display: flex;
   align-items: center;
+  justify-content: center;
+  a{
+    color: #fff;
+    padding: 0;
+    -webkit-align-content: center;
+    text-align: center;
+  }
 }
 
 .flex-h-align  {

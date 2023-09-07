@@ -22,6 +22,12 @@
     <link rel="icon" href="assets/images/Ceetal%20Logo%20-%20New.jpg" type="image">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet" >
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+    <script type="text/javascript">
+		(function() {
+			emailjs.init("ufy2pC4GyTTtvN_-r");
+		})();
+    </script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -81,7 +87,7 @@
                         </div>
                         <div class="row form-row-button">
                             <div class="button-container">
-                                <button type="submit" id="submit" name="submit" class="form-button">Submit</button>
+                                <button type="submit" onclick="SendEmail()" id="submit" name="submit" class="form-button">Submit</button>
                             </div>
                         </div>
                     </form>
